@@ -1,0 +1,15 @@
+.firstDiv{
+
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.resultado{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
