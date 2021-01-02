@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const a=function a(){
+const a=() =>{
     const db= mongoose
 
     db.connect('mongodb://localhost/NodeServerDB',{ useNewUrlParser: true },{ useUnifiedTopology: true })

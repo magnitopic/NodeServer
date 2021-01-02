@@ -7,6 +7,7 @@
     "build-css": "sass --no-source-map -s compressed web/scss/:web/css/",
     "watch-css": "sass --source-map --watch web/scss/:web/css/",
     "build-css-source-map": "sass --source-map -s compressed web/scss/:web/css/",
+    
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index"
@@ -14,6 +15,7 @@
   "author": "Magnitopic",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.8",
