@@ -17,4 +17,4 @@ app.get('/api',(req,res)=>res.json(members))
 
 
 const PORT=process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server runing on port ${PORT}`));
+app.listen(PORT, () => console.log(`\nServer runing on port ${PORT}`));
