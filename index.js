@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const mongoose = require('mongoose');
 const exphbs = require('express-handlebars');
 const mongo = require('./connection.js');
 const members = require('./members.js');
